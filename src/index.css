@@ -58,3 +58,54 @@ body {
   text-align: center;
   transition: all 0.3s ease;
 }
+
+.iconContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.2s;
+  align-items: center;
+}
+
+
+.iconContact:hover {
+  transform: translateY(-5px);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.iconGmail {
+  color: #424866;
+  transition: 0.2s;
+}
+
+.iconGmail:hover {
+  color: #EA4335;
+}
+
+.iconFacebook {
+  color: #424866;
+  transition: 0.2s;
+}
+
+.iconFacebook:hover {
+  color: #1877F2;
+}
+
+
+.iconWhatsapp {
+  color: #424866;
+  transition: 0.2s;
+}
+
+.iconWhatsapp:hover {
+  color: #01c73c;
+}
+
+.iconInstagram {
+  color: #424866;
+  transition: 0.2s;
+}
+
+.iconInstagram:hover {
+  color: #da5ef3;
+}

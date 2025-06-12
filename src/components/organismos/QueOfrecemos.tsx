@@ -3,27 +3,27 @@ import Imagen from "../../assets/bot2-removebg-preview.png"
 export function QueOfrecemos() {
   return (
     <section className="w-full h-[100vh] flex flex-row-reverse items-center">
-      <section className="w-220 h-full flex flex-col items-center p-10 gap-5">
-        <div className="w-80 flex justify-center p-2 subTitle">
-          <h2 className="text-[#0E6F7C] font-bold text-3xl">Que Ofrecemos</h2>
+      <section className="w-220 h-full flex flex-col items-center p-10 gap-10">
+        <div className="w-50 flex border-2 rounded-3xl justify-center p-2 subTitle ">
+          <h2 className="text-[#0E6F7C] font-bold text-2xl">Quienes Somos</h2>
         </div>
-        <section className="w-200 flex flex-col gap-5 justify-center p-4 px-5 subTitle">
-          <strong className="text-[#0E6F7C] text-2xl">Nuestro servicios ofrece las siguientes opciones:</strong>
-
-          <p className="descripcion">
-            Sabemos que cada negocio es único, por eso nuestras soluciones son personalizables y escalables, adaptándose a tus necesidades específicas sin complicaciones. No importa si estás comenzando o ya tienes una empresa establecida: con nuestra tecnología, podrás ahorrar hasta un 40% en tiempo operativo y redirigir esos esfuerzos hacia lo que realmente impulsa tu negocio: vender más y fidelizar a tus clientes.
-          </p>
-
-          <div className="flex flex-col descripcion  gap-3">
-            <span>✅ <strong className="text-[#0E6F7C]">Atención al cliente 24/7</strong> – Chatbots y respuestas automatizadas para no perder ninguna oportunidad de venta.</span>
-            <span>✅ <strong className="text-[#0E6F7C]">Automatización de ventas y cobros</strong> – Agiliza tus transacciones con sistemas rápidos y seguros.</span>
-            <span>✅ <strong className="text-[#0E6F7C]">Análisis de datos y reportes automáticos</strong> – Toma decisiones basadas en información precisa y actualizada.</span>
-            <span>✅ <strong className="text-[#0E6F7C]">Gestión inteligente de inventario</strong> – Evita pérdidas, sobrestock o faltantes con alertas en tiempo real.</span>
+        <section className="w-200 flex border-2 rounded-3xl justify-center p-4 subTitle ">
+          <div className="w-80 flex justify-center p-2 subTitle">
+            <h2 className="text-[#0E6F7C] font-bold text-2xl">Que Ofrecemos</h2>
           </div>
+          <section className="w-200 flex justify-center p-4 subTitle">
+            <p className="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, a totam iste deserunt molestias laborum cum! Est, reiciendis soluta non aspernatur voluptatibus eum quas. At illum iusto id veniam consectetur.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste eius eos animi in temporibus inventore, quia atque autem totam quam repudiandae reiciendis magnam earum voluptatem quaerat? Sapiente, maxime veniam.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ex dolorem similique officia illo veritatis fuga beatae doloribus, deserunt, amet quibusdam non! Laborum sit eos fuga autem, commodi molestiae dignissimos.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius impedit iste veniam neque recusandae sed harum, minima animi culpa, perferendis a quos cupiditate aspernatur, praesentium fugit beatae velit reiciendis at.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos maxime magnam quibusdam et, aspernatur fugiat voluptas ratione, quod veniam autem consequuntur commodi aliquam ex dolorum possimus voluptate itaque. Officiis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea similique inventore iusto libero cum quae doloremque dolorum sunt voluptate explicabo, laboriosam labore atque earum enim recusandae odio nulla officia officiis!
+            </p>
+          </section>
         </section>
-      </section>
-      <section>
-        <img src={Imagen} alt="" className="Imagenes" />
+        <section>
+          <img src={Imagen} alt="" className="Imagenes" />
+        </section>
       </section>
     </section>
   )
