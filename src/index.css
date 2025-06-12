@@ -11,9 +11,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 body {
   background-color: #FBF1DC;
+}
+
+.Imagenes {
+  width: 450px;
+  height: 330px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 
@@ -30,4 +36,9 @@ body {
     10px 10px 15px #ffffff79;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.descripcion {
+  text-align: justify;
+  hyphens: auto;
 }

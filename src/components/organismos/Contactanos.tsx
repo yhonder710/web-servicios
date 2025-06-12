@@ -2,8 +2,10 @@ export function Contactanos() {
   return (
     <section className="w-220 h-full flex flex-col items-center p-10 gap-10">
       <div className="w-50 flex border-2 border-[#373B41] rounded-3xl justify-center p-2">
-        <h2 className="text-[#0E6F7C] font-bold text-2xl">Quienes Somos</h2>
+        <h2 className="text-[#0E6F7C] font-bold text-2xl">Contactanos</h2>
       </div>
+      <section className="w-200 flex border-2 border-[#373B41] rounded-3xl justify-center p-4">
+      </section>
     </section>
   )
 }
