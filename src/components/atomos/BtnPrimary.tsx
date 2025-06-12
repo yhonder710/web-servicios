@@ -7,7 +7,7 @@ interface Props {
 
 export function BtnPrimary({ icon, text }: Props) {
   return (
-    <button className="">
+    <button className="btnNeumorphism">
       <a href="#" className="flex items-center gap-1">
         {icon}
         <strong>{text}</strong>
