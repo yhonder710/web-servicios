@@ -4,10 +4,10 @@ export function QueOfrecemos() {
   return (
     <section className="w-full h-[100vh] flex flex-row-reverse items-center">
       <section className="w-220 h-full flex flex-col items-center p-10 gap-10">
-        <div className="w-50 flex border-2 border-[#373B41] rounded-3xl justify-center p-2">
-          <h2 className="text-[#0E6F7C] font-bold text-2xl">Quienes Somos</h2>
+        <div className="w-80 flex justify-center p-2 subTitle">
+          <h2 className="text-[#0E6F7C] font-bold text-2xl">Que Ofrecemos</h2>
         </div>
-        <section className="w-200 flex border-2 border-[#373B41] rounded-3xl justify-center p-4">
+        <section className="w-200 flex justify-center p-4 subTitle">
           <p className="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, a totam iste deserunt molestias laborum cum! Est, reiciendis soluta non aspernatur voluptatibus eum quas. At illum iusto id veniam consectetur.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste eius eos animi in temporibus inventore, quia atque autem totam quam repudiandae reiciendis magnam earum voluptatem quaerat? Sapiente, maxime veniam.
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ex dolorem similique officia illo veritatis fuga beatae doloribus, deserunt, amet quibusdam non! Laborum sit eos fuga autem, commodi molestiae dignissimos.
