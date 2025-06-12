@@ -23,8 +23,8 @@ export function Naybar() {
       <ul className="flex gap-5 text-[#e9e6e6]">
         {
           link.map(link => (
-            <li key={link.name} className='link'>
-              <a href={link.to} className='text-[20px] flex items-center gap-1 justify-center '>{link.icon} {link.name}</a>
+            <li key={link.name}>
+              <a href={link.to} className='text-[20px] flex items-center gap-1 justify-center hover:text-[#b6b6b6]'>{link.icon} {link.name}</a>
             </li>
           ))
         }
