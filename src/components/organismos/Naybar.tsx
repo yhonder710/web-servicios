@@ -14,7 +14,7 @@ import { MdOutlineConnectWithoutContact } from "react-icons/md";
 
 export function Naybar() {
   return (
-    <nav className="flex justify-between items-center px-2.5 py-1 bg-[#0E6F7C]">
+    <nav className="flex justify-between items-center px-2.5 py-1.5 bg-[#0E6F7C]">
       <picture>
         <a href="#">
           <img src={logo} alt="Logo" className=' w-10 h-auto object-cover rounded-[6px]' />
@@ -23,8 +23,8 @@ export function Naybar() {
       <ul className="flex gap-5 text-[#e9e6e6]">
         {
           link.map(link => (
-            <li key={link.name}>
-              <a href={link.to} className='text-[20px] flex items-center gap-1 justify-center'>{link.icon} {link.name}</a>
+            <li key={link.name} className='link'>
+              <a href={link.to} className='text-[20px] flex items-center gap-1 justify-center '>{link.icon} {link.name}</a>
             </li>
           ))
         }
