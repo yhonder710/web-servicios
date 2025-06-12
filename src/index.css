@@ -15,3 +15,15 @@
 body {
   background-color: #FBF1DC;
 }
+
+.Imagenes {
+  width: 450px;
+  height: 350px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.descripcion {
+  text-align: justify;
+  hyphens: auto;
+}
