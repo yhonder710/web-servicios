@@ -1,21 +1,29 @@
-import Imagen from "../../assets/image somos.jpg"
+import Imagen from "../../assets/ventajas-removebg-preview.png"
 
 export function VentajasDeServicio() {
   return (
     <section className="w-full h-[100vh] flex items-center">
-      <section className="w-220 h-full flex flex-col items-center p-10 gap-10">
+      <section className="w-220 h-full flex flex-col items-center p-10 gap-8">
         <div className="w-80 flex justify-center p-2 subTitle">
           <h2 className="text-[#0E6F7C] font-bold text-2xl">Ventajas del servicio</h2>
         </div>
-        <section className="w-200 flex justify-center p-4 subTitle">
-          <p className="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum, a totam iste deserunt molestias laborum cum! Est, reiciendis soluta non aspernatur voluptatibus eum quas. At illum iusto id veniam consectetur.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iste eius eos animi in temporibus inventore, quia atque autem totam quam repudiandae reiciendis magnam earum voluptatem quaerat? Sapiente, maxime veniam.
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ex dolorem similique officia illo veritatis fuga beatae doloribus, deserunt, amet quibusdam non! Laborum sit eos fuga autem, commodi molestiae dignissimos.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius impedit iste veniam neque recusandae sed harum, minima animi culpa, perferendis a quos cupiditate aspernatur, praesentium fugit beatae velit reiciendis at.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi eos maxime magnam quibusdam et, aspernatur fugiat voluptas ratione, quod veniam autem consequuntur commodi aliquam ex dolorum possimus voluptate itaque. Officiis.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea similique inventore iusto libero cum quae doloremque dolorum sunt voluptate explicabo, laboriosam labore atque earum enim recusandae odio nulla officia officiis!
+        <div className="w-200 flex flex-col gap-3 justify-center p-4 px-5 subTitle">
+          <strong className="text-[#0E6F7C] text-2xl">Muchos negocios de ventas enfrentan:</strong>
+
+          <div className="flex flex-col text-[18px]  gap-2 text-center">
+            <span>Pérdida de tiempo en tareas repetitivas <strong className="text-[#0E6F7C]">(</strong>gestión de clientes, facturación, seguimiento de pedidos<strong className="text-[#0E6F7C]">)</strong>.</span>
+            <span>Errores humanos en procesos manuales.</span>
+            <span>Falta de análisis de datos para tomar decisiones estratégicas.</span>
+            <span>Dificultad para escalar por falta de sistemas eficientes.</span>
+          </div>
+
+          <strong className="text-[#0E6F7C] text-[20px]">→ Nuestra solución: Automatización inteligente adaptada a cada negocio.</strong>
+
+          <p className="descripcion">
+            <strong className="text-[#0E6F7C] text-[20px]">Misión: </strong>
+            Para impulsar el crecimiento de los negocios, es clave implementar herramientas de automatización accesibles, escalables y personalizadas. Estas soluciones optimizan procesos, reducen costos y mejoran la eficiencia, adaptándose a las necesidades específicas de cada empresa. Al automatizar tareas repetitivas, las organizaciones pueden enfocarse en estrategias de expansión e innovación, mientras la escalabilidad de las herramientas garantiza que crezcan junto con el negocio. Así, la automatización se convierte en un aliado estratégico para aumentar la productividad y acelerar el desarrollo sostenible.
           </p>
-        </section>
+        </div>
       </section>
       <section>
         <img src={Imagen} alt="" className="Imagenes" />
