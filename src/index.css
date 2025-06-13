@@ -19,6 +19,10 @@ html {
   scroll-behavior: smooth;
 }
 
+section[id] {
+  scroll-margin-top: 70px;
+}
+
 
 .Imagenes {
   width: 500px;

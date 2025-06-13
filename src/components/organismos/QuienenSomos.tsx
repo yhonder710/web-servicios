@@ -2,7 +2,7 @@ import Imagen from "../../assets/bot-removebg-preview.png"
 
 export function QuienenSomos() {
   return (
-    <section id="quienes-somos" className="w-full lg:h-[90vh] lg:flex-row flex-col flex items-center justify-center lg:px-5 px-0">
+    <section id="quienes-somos" className="w-full lg:h-[90vh] mt-10 lg:flex-row flex-col flex items-center justify-center lg:px-5 px-0">
       <section className="lg:w-250 w-full h-full flex flex-col justify-center items-center p-5 mt-5 gap-5">
         <div className="lg:w-150 w-full flex justify-center p-2 subTitle">
           <h2 className="text-[#0E6F7C] font-bold text-4xl">Quienes Somos</h2>
