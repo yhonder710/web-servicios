@@ -18,7 +18,7 @@ export function Naybar() {
   }
 
   return (
-    <nav className="flex justify-between items-center px-2.5 py-1.5 bg-[#0E6F7C] relative ">
+    <nav className="flex justify-between items-center px-2.5 py-1.5 bg-[#0E6F7C] relative z-10">
       <picture>
         <a href="#">
           <img src={logo} alt="Logo" className=' w-10 h-auto object-cover rounded-[6px]' />

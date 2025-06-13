@@ -15,7 +15,7 @@ export function MenuResponsive({ active }: Props) {
     : 'menuResponsive '
 
   return (
-    <ul className={`${classNaybarResponsive} flex lg:hidden`}>
+    <ul className={`${classNaybarResponsive} flex lg:hidden py-3`}>
       {
         link.map(link => (
           <li key={link.name}>
