@@ -110,3 +110,7 @@ body {
 .iconInstagram:hover {
   color: #f17006;
 }
+
+.shadowCardTitle {
+  text-shadow: 0 0 2px #0000006e;
+}
