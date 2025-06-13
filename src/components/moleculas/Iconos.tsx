@@ -5,7 +5,7 @@ import { FaSquareInstagram, FaSquareWhatsapp } from "react-icons/fa6";
 
 export function Iconos() {
   return (
-    <div className="flex items-center justify-center gap-8">
+    <div className="flex items-center justify-between px-5 ">
       <IconContacts icon={<BiLogoGmail size={45} className="iconGmail" />} name="Gmail" />
       <IconContacts icon={<FaFacebookSquare size={45} className="iconFacebook" />} name="Facebook" />
       <IconContacts icon={<FaSquareWhatsapp size={45} className="iconWhatsapp" />} name="WhatsApp" />

@@ -15,6 +15,11 @@ body {
   background-color: #FBF1DC;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .Imagenes {
   width: 500px;
   height: 300px;
@@ -120,18 +125,25 @@ body {
 }
 
 .btnCard {
-  margin: 15px 0;
-  padding: 3px 8px;
-  font-size: 22px;
-  background-color: #4ce63e;
-  border-radius: 5px;
+  background: #81674e;
+  border: none;
+  margin: 10px 0;
+  padding: 5px 15px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fffbf3;
+  box-shadow:
+    -10px -10px -15px #ffffff79,
+    10px 10px 15px #ffffff79;
   cursor: pointer;
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
-.btnCard:hover {
-  background-color: #21c712;
 
+.btnCard:hover {
+  background: #5c4937;
+  color: #ffffff;
 }
 
 .menuResponsive {

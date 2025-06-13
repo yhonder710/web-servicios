@@ -2,12 +2,12 @@ import Imagen from "../../assets/bot2-removebg-preview.png"
 
 export function QueOfrecemos() {
   return (
-    <section className="w-full flex flex-row-reverse items-center">
-      <section className="w-220 h-full flex flex-col justify-center items-center p-10 gap-5">
+    <section id="que-ofrecemos" className="w-full flex lg:flex-row-reverse flex-col items-center">
+      <section className="lg:w-220 w-full h-full flex flex-col justify-center items-center lg:p-10 p-4 gap-5">
         <div className="w-80 flex justify-center p-2 subTitle">
           <h2 className="text-[#0E6F7C] font-bold text-3xl">Que Ofrecemos</h2>
         </div>
-        <div className="w-200 flex flex-col gap-5 justify-center p-4 px-5 subTitle">
+        <div className="lg:w-200 w-full flex flex-col gap-5 justify-center p-4 px-5 subTitle">
           <strong className="text-[#0E6F7C] text-2xl">Nuestro servicios ofrece las siguientes opciones:</strong>
 
           <p className="descripcion">

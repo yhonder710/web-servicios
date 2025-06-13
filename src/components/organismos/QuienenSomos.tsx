@@ -2,12 +2,12 @@ import Imagen from "../../assets/bot-removebg-preview.png"
 
 export function QuienenSomos() {
   return (
-    <section className="w-full h-[100vh] flex items-center justify-center px-5">
-      <section className="w-250 h-full flex flex-col justify-center items-center p-5 mt-5 gap-5">
-        <div className="w-150 flex justify-center p-2 subTitle">
+    <section id="quienes-somos" className="w-full lg:h-[90vh] lg:flex-row flex-col flex items-center justify-center lg:px-5 px-0">
+      <section className="lg:w-250 w-full h-full flex flex-col justify-center items-center p-5 mt-5 gap-5">
+        <div className="lg:w-150 w-full flex justify-center p-2 subTitle">
           <h2 className="text-[#0E6F7C] font-bold text-4xl">Quienes Somos</h2>
         </div>
-        <div className="w-230 flex flex-col gap-3 justify-center p-5 subTitle">
+        <div className="lg:w-230 w-full flex flex-col gap-3 justify-center p-5 subTitle">
           <strong className="text-[#0E6F7C] text-3xl">¡Bienvenidos a AC Solutions!</strong>
           <p className="descripcion">
             En el vertiginoso mundo del comercio, donde cada segundo cuenta y la satisfacción del cliente es primordial, optimizar las operaciones de tu negocio o tienda puede ser la diferencia entre crecer o quedarte atrás. Nosotros somos tu aliado estratégico: una empresa especializada en automatización de procesos para negocios y tiendas, diseñada para ayudarte a ahorrar tiempo, reducir costos y aumentar tus ventas mediante soluciones tecnológicas inteligentes y adaptables.
@@ -19,7 +19,7 @@ export function QuienenSomos() {
 
         </div>
       </section>
-      <section>
+      <section className="lg:mb-0 mb-5">
         <img src={Imagen} alt="" className="Imagenes" />
       </section>
     </section>

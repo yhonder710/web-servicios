@@ -19,9 +19,9 @@ export function Menu() {
 }
 
 const link = [
-  { name: "Quienes somos", to: "#", icon: <IoPersonSharp /> },
-  { name: "Que ofrecemos", to: "#", icon: <FaHandHoldingUsd /> },
-  { name: "Ventajas del servicio", to: "#", icon: <AiFillTrophy /> },
-  { name: "Planes del servicio", to: "#", icon: <AiFillCreditCard /> },
-  { name: "Contactanos", to: "#", icon: <MdOutlineConnectWithoutContact /> }
+  { name: "Quienes somos", to: "#quienes-somos", icon: <IoPersonSharp /> },
+  { name: "Que ofrecemos", to: "#que-ofrecemos", icon: <FaHandHoldingUsd /> },
+  { name: "Ventajas del servicio", to: "#ventajas-de-servicio", icon: <AiFillTrophy /> },
+  { name: "Planes del servicio", to: "#planes-del-servicio", icon: <AiFillCreditCard /> },
+  { name: "Contactanos", to: "#contactanos", icon: <MdOutlineConnectWithoutContact /> }
 ]

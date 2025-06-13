@@ -2,12 +2,12 @@ import Imagen from "../../assets/ventajas-removebg-preview.png"
 
 export function VentajasDeServicio() {
   return (
-    <section className="w-full flex items-center">
-      <section className="w-220 h-full flex flex-col items-center p-10 gap-8">
+    <section id="ventajas-de-servicio" className="w-full flex lg:flex-row flex-col  items-center">
+      <section className="lg:w-220 w-full h-full flex flex-col items-center lg:p-10 p-4 gap-8">
         <div className="w-80 flex justify-center p-2 subTitle">
           <h2 className="text-[#0E6F7C] font-bold text-2xl">Ventajas del servicio</h2>
         </div>
-        <div className="w-200 flex flex-col gap-3 justify-center p-4 px-5 subTitle">
+        <div className="lg:w-200 flex flex-col gap-3 justify-center p-4 px-5 subTitle">
           <strong className="text-[#0E6F7C] text-2xl">Muchos negocios de ventas enfrentan:</strong>
 
           <div className="flex flex-col text-[18px]  gap-2 text-center">
