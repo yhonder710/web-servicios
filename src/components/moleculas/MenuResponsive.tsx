@@ -11,11 +11,11 @@ interface Props {
 export function MenuResponsive({ active }: Props) {
 
   const classNaybarResponsive = active
-    ? 'gap-5 text-[#e9e6e6] flex lg:hidden absolute flex-col bg-[#0E6F7C] w-full bottom-[calc(-270px)] left-0 py-5 rounded-b-3xl tr'
-    : 'gap-5 text-[#e9e6e6] flex lg:hidden absolute flex-col bg-[#0E6F7C] w-full top-[calc(-280px)] left-0 py-5 rounded-b-3xl '
+    ? 'menuResponsive on'
+    : 'menuResponsive '
 
   return (
-    <ul className={classNaybarResponsive}>
+    <ul className={`${classNaybarResponsive} flex lg:hidden`}>
       {
         link.map(link => (
           <li key={link.name}>

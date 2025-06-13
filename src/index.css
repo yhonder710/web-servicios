@@ -133,3 +133,22 @@ body {
   background-color: #21c712;
 
 }
+
+.menuResponsive {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  left: 0;
+  gap: 5px;
+  width: 100%;
+  color: #e9e6e6;
+  position: absolute;
+  top: calc(-280px);
+  transition: 0.5s;
+  flex-direction: column;
+  background-color: #0E6F7C;
+  z-index: -1;
+}
+
+.menuResponsive.on {
+  top: 55px;
+}
