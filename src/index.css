@@ -65,6 +65,7 @@ body {
   justify-content: center;
   transition: 0.2s;
   align-items: center;
+  cursor: pointer;
 }
 
 
@@ -107,5 +108,5 @@ body {
 }
 
 .iconInstagram:hover {
-  color: #da5ef3;
+  color: #f17006;
 }
