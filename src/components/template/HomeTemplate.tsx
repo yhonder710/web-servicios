@@ -7,11 +7,11 @@ import { VentajasDeServicio } from "../organismos/VentajasDeServicio";
 export function HomeTemplate() {
   return (
     <>
-      <QuienenSomos />
+      {/* <QuienenSomos />
       <QueOfrecemos />
       <VentajasDeServicio />
       <PlanesDelServicio />
-      <Contactanos />
+      <Contactanos /> */}
     </>
   )
 }

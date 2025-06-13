@@ -46,7 +46,7 @@ body {
 .descripcion {
   text-align: justify;
   hyphens: auto;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .subTitle {
@@ -80,7 +80,7 @@ body {
 }
 
 .iconGmail:hover {
-  color: #EA4335;
+  color: #e22311;
 }
 
 .iconFacebook {
@@ -89,7 +89,7 @@ body {
 }
 
 .iconFacebook:hover {
-  color: #1877F2;
+  color: #277dee;
 }
 
 
@@ -99,7 +99,7 @@ body {
 }
 
 .iconWhatsapp:hover {
-  color: #01c73c;
+  color: #00f80c;
 }
 
 .iconInstagram {
@@ -108,9 +108,28 @@ body {
 }
 
 .iconInstagram:hover {
-  color: #f17006;
+  color: #f15e19;
 }
 
 .shadowCardTitle {
   text-shadow: 0 0 2px #0000006e;
+}
+
+.shadowCard {
+  box-shadow: 0 0 4px #00000063;
+}
+
+.btnCard {
+  margin: 15px 0;
+  padding: 3px 8px;
+  font-size: 22px;
+  background-color: #4ce63e;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btnCard:hover {
+  background-color: #21c712;
+
 }

@@ -2,8 +2,8 @@ import Imagen from "../../assets/bot2-removebg-preview.png"
 
 export function QueOfrecemos() {
   return (
-    <section className="w-full h-[100vh] flex flex-row-reverse items-center">
-      <section className="w-220 h-full flex flex-col items-center p-10 gap-5">
+    <section className="w-full flex flex-row-reverse items-center">
+      <section className="w-220 h-full flex flex-col justify-center items-center p-10 gap-5">
         <div className="w-80 flex justify-center p-2 subTitle">
           <h2 className="text-[#0E6F7C] font-bold text-3xl">Que Ofrecemos</h2>
         </div>

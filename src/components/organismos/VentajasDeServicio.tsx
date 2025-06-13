@@ -2,7 +2,7 @@ import Imagen from "../../assets/ventajas-removebg-preview.png"
 
 export function VentajasDeServicio() {
   return (
-    <section className="w-full h-[100vh] flex items-center">
+    <section className="w-full flex items-center">
       <section className="w-220 h-full flex flex-col items-center p-10 gap-8">
         <div className="w-80 flex justify-center p-2 subTitle">
           <h2 className="text-[#0E6F7C] font-bold text-2xl">Ventajas del servicio</h2>
